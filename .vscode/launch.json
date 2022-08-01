@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "d:/Coding Course/c++/better calculator",
-      "program": "d:/Coding Course/c++/better calculator/build/Debug/outDebug",
+      "cwd": "d:/Coding Course/c++/while loop",
+      "program": "d:/Coding Course/c++/while loop/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

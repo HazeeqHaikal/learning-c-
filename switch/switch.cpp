@@ -29,7 +29,6 @@ string changeNumberToDay(int num){
             break;
         default:
             cout << "Invalid number";
-            break;
 
     }
 
