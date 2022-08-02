@@ -10,7 +10,12 @@ int main(){
 
     };
 
-    cout << numberGrid[2][1];
+    for (int i = 0; i < sizeof(numberGrid) / sizeof(numberGrid[0]); i++){
+        for (int b = 0; b < sizeof(numberGrid[0]) / sizeof(numberGrid[0][0]); b++){
+            cout << numberGrid[i][b] << "\n";
+        };
+    };
+    
 
     return 0;
 }
