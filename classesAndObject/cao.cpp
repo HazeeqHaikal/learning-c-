@@ -9,23 +9,19 @@ class Book {
         string author;
         int pages;
 
+        Book(string aTitle, string aAuthor, int aPages){
+            title = aTitle; 
+            author = aAuthor;
+            pages = aPages;
+        };
 };
 
 int main(){
 
-    Book sejarah;
-    sejarah.title = "Penjajahan British";
-    sejarah.author = "Hazeeq Haikal";
-    sejarah.pages = 29;
+    Book sejarah("Penjajahan British", "Hazeeq Haikal", 29);
+    Book sejarah2("Tanah Tumpash Darahku", "Hazeeq Haikal", 64);
 
-    cout << sejarah.pages << "\n";
-
-    Book sejarah2;
-    sejarah2.title = "Tanah Tumpah Darahku";
-    sejarah2.author = "Hazeeq Haikal";
-    sejarah2.pages = 64;
-
-    cout << sejarah2.title;
+    cout << sejarah.title;
 
     return 0;
 }
